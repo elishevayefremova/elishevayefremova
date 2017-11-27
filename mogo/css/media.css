@@ -1,0 +1,87 @@
+@media (max-width: 1024px){
+	.logo{
+		margin-left: 2%;
+	}
+	.main-menu ul{
+		margin-left: 39%;
+	}
+	.about-gallery-item{
+		width: 32%;
+		height: auto;
+	}
+	.about-gallery-item a{
+		width: 100%;
+	}
+	.about-gallery-item img {
+    	width: 100%;
+    	height: 100%;
+	}
+	.about-gallery-item a:hover img{
+		top: -1%;
+		left: -1%;
+	}
+	.about-gallery-item h4{
+		top: 52%;
+    	left: 34%;
+	}
+	.about-gallery-item a:hover #icon-users{
+		top: 38%;
+    	left: 48%;
+	}
+}
+
+@media (max-width: 800px){
+
+	.main-menu li {
+    	margin-right: 20.5%;
+	}
+	#titles-main-text{
+		font-size: 9em;
+	}
+	.facts-item h4{
+		font-size: 12px;
+	}
+}
+@media (max-width: 641px) and (min-width: 600px)
+{
+	.main-menu li {
+    	margin-right: 6.5%;
+	}
+	#titles-main-text{
+		font-size: 7em;
+		line-height: unset;
+	}
+	.facts-item h4 {
+ 	   font-size: 9px;
+	}
+}
+
+@media (max-width: 480px) and (min-width: 360px)
+{
+	body{
+		font-size: 12px;
+	}
+	.main-menu ul{
+		margin-left: 15%;
+	}
+	.main-menu li {
+    	margin-right: 3%;
+    	
+    	}
+    #titles-upper-text{
+    	font-size: 5em;
+    }
+    #titles-main-text{
+    	font-size: 7em;
+    	line-height: 1em;
+    }
+    .owl-carousel {
+    	margin-top: 90px;
+	}
+	.about p{
+		margin: 0;
+	}
+	.facts-item span{
+		font-size: 4em;
+	}
+}

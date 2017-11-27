@@ -1,0 +1,216 @@
+h1, h2, h3, p, body, ul{
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	color: #2f383b;
+	list-style: none;
+}
+.wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+header{
+	background-color: #4e8598;
+}
+.logo{
+	text-align: center;
+	padding-top: 51px;
+	margin-bottom: 177px;
+}
+.offer{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 153px;
+}
+.offer__title{
+	width: 600px;
+	font-size: 27px;
+	line-height: 38px;
+	margin: 0 auto 20px;
+	letter-spacing: 0.54px;
+	color: #fff
+}
+.offer__button{
+	border: 1px solid #fff;
+	border-radius: 25px;
+	background-color: transparent;
+	padding: 19px 33px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #fff;
+	letter-spacing: 0.26px;
+}
+.arrow{
+	text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 11px 0 47px;
+}
+.about{
+	padding: 75px 0 52px;
+	display: flex;
+	justify-content: space-between;
+}
+.title{
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 33px;
+	text-align: center;
+	margin: 72px 0 4px;
+    text-transform: uppercase;
+}
+.about__mission{
+	width: 50%;
+	padding-left: 19px;
+	} 
+.about__merits{
+	width: 50%;
+	padding-left: 13px;
+}
+.subtitle{
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.44px;
+}
+.about .subtitle:after{
+	content:'';
+	display: block;
+	width: 72px;
+	height: 3px;
+	background-color: #4e8598;
+	margin: 9px 0 25px 2px;
+}
+.about__mission p{
+	width: 395px;
+    letter-spacing: 0.3px;
+    margin-bottom: 22px;
+}
+.about__merits-item{
+	
+	color: #2f383b;
+	letter-spacing: 0.3px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 22px;
+}
+.about__merits-item_text{
+	opacity: 0.48;
+}
+.about__merits-item::before{
+	display: inline-block;
+	content: '';
+	width: 40px;
+	height: 40px;
+	margin-right: 24px;
+}
+.about__merits-title{
+	color: #4e8598;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 33px;
+	letter-spacing: 0.32px;
+	margin-right: 26px;
+}
+.about__merits-item_bug::before{
+	background: url(../img/bug.png) no-repeat center;
+}
+.about__merits-item_bell::before{
+	background: url(../img/bell.png) no-repeat center;
+}
+.about__merits-item_storm::before{
+	background: url(../img/storm.png) no-repeat center;
+}
+.about__merits-item_camera::before{
+	background: url(../img/camera.png) no-repeat center;
+}
+.reasons{
+	margin: 65px 0 57px;
+}
+.reasons__list{
+	display: flex;
+	justify-content: space-around;
+}
+.reasons__item{
+	display: block;
+}
+.reasons__item p{
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.32px;
+}
+.reasons__item-num{
+	font-size: 30px;
+	width: 78px;
+	height: 77px;
+	border: 1px solid #2f383b;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 10px;
+}
+.hover:hover {
+	transition: 0.25s ease-out 0.05s;
+	background-color: #2f383b;
+	border: 1px solid #2f383b;
+	color: #fff;
+}
+.hover-white:hover {
+	transition: 0.25s ease-out 0.05s;
+	background-color: #4e8598;
+	border: 1px solid #4e8598;
+}
+.motive{
+	text-align: center;
+}
+.motive__text{
+	text-align: center;
+	width: 412px;
+	font-size: 14px;
+	letter-spacing: 0.28px;
+	margin: 20px auto 0;
+}
+.motive__button{
+	border: 1px solid #2f383b;
+	background-color: #2f383b;
+	border-radius: 25px;
+	padding: 19px 36px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #fff;
+	margin: 25px auto 72px;
+}
+footer{
+	background-color: #2f383b;
+}
+.credits{
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.credits p{
+	opacity: 0.55;
+	color: #ffffff;
+	font-size: 13px;
+	letter-spacing: 0.26px;
+}
+.credits a{
+	opacity: 0.9;
+	color: #ffffff;
+	font-size: 13px;
+	text-decoration: none;
+    border-bottom: 1px dotted #fff;
+    padding-bottom: 0px;
+}
+.credits a:hover{
+	color: #4e8598;
+	border-bottom: 1px solid #4e8598;
+	transition: 0.5s ease-out 0.05s;
+}

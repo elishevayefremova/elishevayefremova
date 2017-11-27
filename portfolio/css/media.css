@@ -1,0 +1,104 @@
+@media screen and (max-width: 1200px){
+	.container{
+		width: 960px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 560px;
+	}
+	header{
+		padding-bottom: 22px;
+		height: auto;
+	}
+	.main{
+		width: 100%;
+	}
+	.main__nav {
+    	width: auto;
+    	margin-left: 0px;
+	}
+	.main__nav-item{
+		margin-right: 10px;
+	}
+	.main__nav-item a{
+		font-size: 12px;
+	}
+	.main__email{
+		font-size: 11px;
+	}
+	.about .wrapper {
+    	display: block;
+	}
+	.background, .merits-contacts-wrapper {
+	    width: auto;
+	}
+	.skills__list{
+		display: block;
+	}
+	.skills__item {
+ 	   margin: 0 auto 10px;
+	}
+	.portfolio__list{
+		display: block;
+	}
+	.portfolio__item{
+		margin: 0 auto 10px;
+	}
+	.portfolio__image_first {
+		top: 0;
+		left: -4px;
+	}
+	.portfolio__image_third {
+	    top: -26px;
+	    left: -198px;
+	}
+	.portfolio__item:first-child:hover::before {
+	    left: 0px;
+	    width: 99%;
+	}
+	.portfolio__item:hover::before{
+		left: 0px;
+	    width: 99%;
+	}
+
+
+}
+@media screen and (max-width: 576px){
+	.container{
+		max-width: 480px;
+	}
+	.main{
+		justify-content: space-around;
+	}
+	.main__nav{
+		display: none;
+	}
+	.merits__list{
+		width: auto;
+	}
+	.merits__item{
+		width: 30%;
+	}
+
+}
+
+@media screen and (max-width: 425px){
+	.container{
+		max-width: 400px;
+	}
+	.background, .merits-contacts-wrapper {
+    	width: 90%;
+	}
+	.contacts__links{
+		margin-right: 25px;
+	}
+	.avatar{
+		margin-top: 20px;
+	}
+	.label{
+		margin: 22px 0 0 14px;
+	}
+
+}

@@ -80,6 +80,8 @@ a{
 	width: 140px;
 }
 
+
+/*  media  */
 @media (max-width:1200px){
 	.wrapper{
 		width: 90%;
@@ -101,7 +103,7 @@ a{
 	}
 }
 
-/*  mobile menu  */
+	/*  mobile menu  */
 
 @media (max-width:500px){
 	.menu:before{
@@ -155,5 +157,3 @@ a{
 	}
 }
 
-
-/**/

@@ -1,0 +1,24 @@
+body{
+	background-color: #0A1827;
+}
+
+.items{
+	margin: 50px auto;
+	padding: 20px;
+	width: 90%;
+}
+.items li{ 
+	text-align: center;
+	border: 1px solid #9AC0BA;
+	border-radius: 10px;
+	margin: 0 10px;
+	background-color: #9AC0BA;
+	color: #0A1827;
+}
+.items li h3{
+	margin: 5px 0;
+}
+.items li div{
+	margin-bottom: 5px;
+}
+

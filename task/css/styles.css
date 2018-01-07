@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
-/*.cf:before,
-.cf:after {
-    content: " ";
-    display: table;
-}
-.cf:after {
-    clear: both;
-}
-.cf {
-    *zoom: 1;
-}*/
+
 /*  specification  */
 *{
 	transition: all 0.5s ease;
@@ -90,64 +80,30 @@ a{
 	width: 140px;
 }
 
-/*  mobile menu  */
-/*@media (max-width:500px){
+@media (max-width:1200px){
 	.wrapper{
 		width: 90%;
 	}
+}
+@media(max-width: 760px){ 
 	.menu{
+		justify-content: left;
+	}
+	.menu>li a{
 		display: block;
-		width: 100%;
-		background-color:  #1d252b;
-		padding: 10px;
-		text-transform: uppercase;
-		border: 1px solid #1d252b;
-		margin: 10px 0;
-		position: relative;
+		padding: 10px 5px;
+		font-size: 10px;
 	}
-	.menu>li{
-		display: block;
-		border-left: none;
-		visibility: hidden;
-	}
-	.menu a{
-		color: #fff;
-	}
-	.menu:hover li{
-		visibility: visible;
-		display: block;
-	}
-	.parent>ul{
-		display: block;
-		position:relative;
-		top:0;
-		left:0;
-		width:100%;
-		padding: 0 0 0 20px;
-	}
-	.parent>ul li{
-		background-color: #1d252b;
-	}
-	.parent .parent>ul{
-		display: block;
-		position:relative;
-		top:0;
-		left:0;
-		width:100%;
-		padding: 0 0 0 40px;
-	}
-	.parent .parent>ul li{
-		background-color: #1d252b;
+	.parent>ul li a{
+		text-transform: none;
+		padding: 10px 5px;
+		font-size: 9px;
 	}
 }
 
-
-*/
+/*  mobile menu  */
 
 @media (max-width:500px){
-	.wrapper{
-		width: 90%;
-	}
 	.menu:before{
 		content: 'menu';
 		text-transform: uppercase;
@@ -173,7 +129,7 @@ a{
 		color: #fbfcfc;
 	}
 	.menu:hover li{
-		display: block;
+		/*display: block;*/
 	}
 	.parent>ul{
 		display: block;
@@ -200,3 +156,4 @@ a{
 }
 
 
+/**/

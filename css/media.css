@@ -65,9 +65,9 @@
 
 
 }
-@media screen and (max-width: 576px){
+@media screen and (max-width: 560px){
 	.container{
-		max-width: 480px;
+		width: 95%;
 	}
 	.main{
 		justify-content: space-around;
@@ -81,12 +81,15 @@
 	.merits__item{
 		width: 30%;
 	}
+	.contacts__wrapper{
+		display: block;
+	}
 
 }
 
 @media screen and (max-width: 425px){
 	.container{
-		max-width: 400px;
+		/*max-width: 400px;*/
 	}
 	.background, .merits-contacts-wrapper {
     	width: 90%;

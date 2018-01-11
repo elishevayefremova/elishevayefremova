@@ -1,0 +1,398 @@
+/*specification*/
+body, div, h1, h2, h3, h4, p, ul, li, a{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	transition: 0.3s all ease;
+}
+.container{
+	width: 980px;
+	margin: 0 auto;
+}
+.d-flex{
+	display: flex;
+}
+.space-bwn{
+	justify-content: space-between;
+}
+.space-arnd{
+	justify-content: space-around;
+}
+
+.align-items-center{
+	align-items: center;
+}
+.subtitle{
+	color: #22241b;
+	font-family: Natasha;
+	font-size: 37px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 4.44px;
+}
+/* header */
+header{
+	background: url(../img/bg.png) no-repeat center top;
+	box-shadow: inset 0 30000px 0 rgba(66, 79, 55, 0.38);
+	padding: 53px 0 0 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+	/* main */
+
+.main{
+	width: 940px;
+	margin: 0 auto;
+	align-items: baseline;
+
+}
+a.main__logo{
+	color: #ffffff;
+	font-family: "museo_sans_cyrl900";
+	font-size: 17px;
+	font-weight: 400;
+	/*line-height: 48px;*/
+	text-transform: uppercase;
+	letter-spacing: 2.04px;
+	}
+.main__logo span{
+	font-family: "museo_sans_cyrl100";
+}
+.main__nav{
+	width: 321px;
+	height: 11px;
+	margin-left: 19px;
+}
+.main__nav-item a{
+	color: #ffffff;
+    font-family: 'museo_sans_cyrl900';
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+}
+.main__nav-item a:hover{
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	transition: 0.5s all 0s;
+}
+.main__email{
+	color: #ffffff;
+	font-family: "museo_sans_cyrl300";
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 1.56px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid rgba(255,255,255,0.36);
+}
+.main__email:hover{
+	/*border-bottom: 1px solid rgba(255,255,255,0.5);*/
+	text-shadow: 0 0 2px #fff;
+	/*transition: 0.5s all 0s;*/
+}
+	/*--- main ---*/
+
+	/* title */
+	
+.title{
+	margin-top: 230px;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.title h1{
+	font-family: Natasha;
+	font-size: 49px;
+	font-weight: 400;
+	letter-spacing: 5.88px;
+	margin-bottom: 16px;
+}
+.title h2{
+	font-family: "museo_sans_cyrl100";
+	font-size: 29px;
+	letter-spacing: 3.48px;
+	font-weight: 100;
+}
+	/*--- title ---*/
+
+	/* arrow */
+.arrow{
+	width: 42px;
+	height: 42px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	margin: 170px auto 0;
+	box-sizing: border-box;
+	font-weight: 100;
+	background: url(../img/arrow.png) no-repeat center center;
+}
+.arrow:hover{
+	box-shadow: 0 0 3px #fff;
+	transition: 0.5s all 0s;
+}
+	/*--- arrow ---*/
+
+		
+/*---- header ----*/
+
+/* About */
+.about{
+	color: #22241b;
+	font-family: Natasha;
+	text-transform: uppercase;
+	padding: 86px 0 0;
+}
+.about .container{
+	padding-left: 36px;
+}
+.about-title{
+	opacity: 0.66;
+	color: #22241b;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 2.64px;
+}
+.about .wrapper{
+	margin-top: 69px;
+}
+	/* background */
+.background{
+	
+	width: 49%;
+}
+.background__title{
+	margin-bottom: 35px;
+}
+.background__text{
+	color: #22241b;
+	font-family: "museo_sans_cyrl300";
+	font-size: 15px;
+	line-height: 27px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	text-transform: none;
+}
+.background__text p{
+	max-width: 434px;
+	margin-bottom: 27px;
+}
+	/*--- background ---*/
+.merits-contacts-wrapper{
+	width: 51%;
+}
+	/* merits */
+
+.merits__title{
+	margin-bottom: 59px;
+}
+.merits__list{
+	width: 468px;
+    /*padding: 0 7px;	*/
+}
+.merits__item{
+	width: 150px;
+    text-align: center;
+}
+
+.merits__label{
+	text-align: center;
+	color: #22241b;
+	font-family: "museo_sans_cyrl100";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.24px;
+}
+	/*--- merits ---*/
+	
+	/* contacts */
+.contacts{
+	text-transform: none;
+}
+.contacts__title{
+	margin: 63px 0 30px;
+}
+.contacts__links{
+	padding-left: 4px;
+	margin-right: 40px;
+}
+.contacts__link{
+	margin-bottom: 19px;
+}
+.contacts__link a{
+	text-decoration: none;
+	font-family: "museo_sans_cyrl300";
+	color: #204d15;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1.68px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid rgba(0,0,0,0.29);
+}
+.contacts__avatar{
+	padding: 9px 0 0 43px;
+}
+.avatar{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: #eef1ed;
+	background-image: url(../img/avatarl.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.label{
+	opacity: 0.72;
+	font-family: "museo_sans_cyrl300_italic";
+	color: #22241b;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.28px;
+	margin: 22px 0 0 18px;
+}
+	/*--- contacts ---*/
+
+/*--- About ---*/
+
+/* Skills */
+#skills{
+	padding: 65px 0 0 35px;
+}
+.skills{
+	/*padding: 65px 0px 0 35px;*/
+	margin-top: 54px;
+}
+.skills__list{
+	padding-left: 5px;
+}
+.skills__item{
+	width: 240px;
+}
+.skills__circle{
+	width: 59px;
+	height: 59px;
+	border: 1px solid #204d15;
+	border-radius: 50%;
+	margin-right: 26px;
+}
+.skills__inner-circle{
+	width: 48px;
+	height: 48px;
+	border: 1px solid #adb2ac;
+	border-radius: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.skills__item-label{
+	margin: 0 auto;
+	color: #000;
+	font-family: "museo_sans_cyrl100";
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 1.56px;
+	}
+.skills__label{
+	opacity: 0.89;
+	color: #22241b;
+	font-family: "museo_sans_cyrl900";
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+}
+#gulp{
+	background: url(../img/gulp.png) no-repeat center center;
+    background-size: 50%;
+}
+/*--- Skills ---*/
+
+/* Portfolio */
+#portfolio{
+	padding-top: 84px;
+}
+#portfolio .subtitle{
+	margin-left: 18px;
+}
+.portfolio{
+	margin-top: 51px;
+}
+.portfolio__list{
+	padding-left: 15px;
+}
+.portfolio__item{
+	width: 305px;
+	height: 300px;
+	margin-right: 20px;
+	position:relative;
+	overflow: hidden;
+}
+.portfolio__label{
+	display: block;
+	position: absolute;
+	text-align: center;
+	top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+.portfolio__label h4{
+	color: #ffffff;
+	font-family: "museo_sans_cyrl900";
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+	margin: 130px auto;
+	margin-bottom: 6px;
+}
+.portfolio__label a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "museo_sans_cyrl300";
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 0.26px;
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 2px;
+
+}
+.portfolio__item:hover>.portfolio__label{
+	z-index: 20;
+	position: absolute;
+	opacity: 1;
+}
+.portfolio__image{
+	position: absolute;
+	width: 100%;
+}
+.portfolio__item:hover:before{
+    display: block;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.56);
+    position: absolute;
+    top: 1px;
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+	}
+.portfolio__item:first-child:hover:before{
+    left: 4px; 
+}
+/*--- Portfolio ---*/
+/* Footer */
+#footer{
+	padding: 123px 0 110px 43px;
+	opacity: 0.66;
+	color: #22241b;
+	font-family: "museo_sans_cyrl300";
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1.54px;
+}
+
+/*--- Footer ---*/

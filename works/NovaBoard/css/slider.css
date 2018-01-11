@@ -1,0 +1,77 @@
+.slider{
+	/*width: 980px;*/
+	height:493px; 
+	/*padding: 0;*/
+	margin-top: 17px;
+	position: relative;
+	/*text-align: center;*/
+	/*z-index: 1;*/
+
+}
+#images{
+	position: absolute;
+}
+.slide{
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.slide img{
+	display: block;
+	width: 980px;
+	max-height: 493px;
+}
+.slider div.slide div {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 770px;
+    padding-top: 40px;
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    height: 140px;
+}
+div.slide p{
+	margin: 0 25px;
+	font-family: europe-ext;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.18px;
+	color: #fff;
+}
+div.slide h3{
+	font-family: europe-ext;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: bold;	
+	text-transform: uppercase;
+	letter-spacing: 0.18px;
+	color: #fff;
+	margin: 15px 25px 0;
+}
+.pagination {
+	position: absolute;
+	left: 25px;
+	bottom: 9px;
+	text-align: center;
+}
+.pagination a {
+	background: url(../img/pagination.png) no-repeat transparent;
+	width: 32px;
+	height: 12px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+.pagination a.selected {
+	background: url(../img/pagination_select.png) no-repeat transparent;
+	cursor: default;
+}
+.pagination a span {
+	display: none;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}

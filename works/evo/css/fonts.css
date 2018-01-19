@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'scriptina_-_alternatesregular';
+    src: url('../fonts/scripalt-webfont.woff2') format('woff2'),
+         url('../fonts/scripalt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'scriptinaregular';
+    src: url('../fonts/scriptin-webfont.woff2') format('woff2'),
+         url('../fonts/scriptin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

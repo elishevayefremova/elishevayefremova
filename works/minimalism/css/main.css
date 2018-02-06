@@ -106,7 +106,7 @@ a{
 /* --- border --- */
 
 .first{
-	height: 119vh;
+	//height: 119vh;
 }
 .left{
 	position: relative;
@@ -245,7 +245,7 @@ a{
 
 /*  second  */
 .second{
-	height: 86vh;
+	//height: 86vh;
 	overflow: hidden;
 }
 .second .bg-cross{

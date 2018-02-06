@@ -1,60 +1,104 @@
-@media (max-width: 1440px){
-	.border{
-		min-width: unset;
+@media screen and (max-width: 1200px){
+	.container{
+		width: 960px;
 	}
 }
 
-@media (max-width: 1280px){
+@media screen and (max-width: 768px){
 	.container{
-		width: 95%;
+		width: 560px;
 	}
-	.header__logo{
-		width: 29%;
-		margin-right: 0;
+	header{
+		padding-bottom: 22px;
+		height: auto;
 	}
-	nav{
-		width: 43%;
-	}
-	.nav__list{
+	.main{
 		width: 100%;
 	}
-	.header__contacts{
-		width: 28%;
-		text-align: right;
+	.main__nav {
+    	width: auto;
+    	margin-left: 0px;
 	}
-	.header__contacts a{
-		margin: 0;
+	.main__nav-item{
+		margin-right: 10px;
 	}
+	.main__nav-item a{
+		font-size: 12px;
+	}
+	.main__email{
+		font-size: 11px;
+	}
+	.about .wrapper {
+    	display: block;
+	}
+	.background, .merits-contacts-wrapper {
+	    width: auto;
+	}
+	.skills__list{
+		display: block;
+	}
+	.skills__item {
+ 	   margin: 0 auto 10px;
+	}
+	.portfolio__list{
+		display: block;
+	}
+	.portfolio__item{
+		margin: 0 auto 10px;
+	}
+	.portfolio__image_first {
+		top: 0;
+		left: -4px;
+	}
+	.portfolio__image_third {
+	    top: -26px;
+	    left: -198px;
+	}
+	.portfolio__item:first-child:hover::before {
+	    left: 0px;
+	    width: 99%;
+	}
+	.portfolio__item:hover::before{
+		left: 0px;
+	    width: 99%;
+	}
+
+
 }
-@media (max-width: 900px){
-	.bg-cross{
-		width: 40%;
+@media screen and (max-width: 576px){
+	.container{
+		max-width: 480px;
 	}
-	.first .title, .second .title{
-		font-size: 60px;
-		width: 90%;
+	.main{
+		justify-content: space-around;
 	}
-	.bottom-pic{
-		top: 54%;
+	.main__nav{
+		display: none;
 	}
-	.solial__list{
-		margin-top: 70%;
+	.merits__list{
+		width: auto;
 	}
-	.active::after{
-		margin-left: 15%;
+	.merits__item{
+		width: 30%;
 	}
-	.second .bg-cross{
-		top: 2%;
-		left: 54%;
+
+}
+
+@media screen and (max-width: 425px){
+	.container{
+		max-width: 400px;
 	}
-	.second .next-step{
-		z-index: 10;
-		position: absolute;
+	.background, .merits-contacts-wrapper {
+    	width: 90%;
 	}
-	.second .social__list{
-		padding-right: 0;
-		position: absolute;
-		right: 0%;
-		z-index: 10;
+	.contacts__links{
+		margin-right: 25px;
 	}
+	.avatar{
+		margin-top: 20px;
+	}
+	.label{
+		margin: 22px 0 0 14px;
+	}
+
 }

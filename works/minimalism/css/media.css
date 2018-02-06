@@ -25,6 +25,9 @@
 	.header__contacts a{
 		margin: 0;
 	}
+	.second .next-step{
+		margin-top: 93%;
+	}
 }
 @media (max-width: 900px){
 	.bg-cross{

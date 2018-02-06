@@ -1,0 +1,60 @@
+@media (max-width: 1440px){
+	.border{
+		min-width: unset;
+	}
+}
+
+@media (max-width: 1280px){
+	.container{
+		width: 95%;
+	}
+	.header__logo{
+		width: 29%;
+		margin-right: 0;
+	}
+	nav{
+		width: 43%;
+	}
+	.nav__list{
+		width: 100%;
+	}
+	.header__contacts{
+		width: 28%;
+		text-align: right;
+	}
+	.header__contacts a{
+		margin: 0;
+	}
+}
+@media (max-width: 900px){
+	.bg-cross{
+		width: 40%;
+	}
+	.first .title, .second .title{
+		font-size: 60px;
+		width: 90%;
+	}
+	.bottom-pic{
+		top: 54%;
+	}
+	.solial__list{
+		margin-top: 70%;
+	}
+	.active::after{
+		margin-left: 15%;
+	}
+	.second .bg-cross{
+		top: 2%;
+		left: 54%;
+	}
+	.second .next-step{
+		z-index: 10;
+		position: absolute;
+	}
+	.second .social__list{
+		padding-right: 0;
+		position: absolute;
+		right: 0%;
+		z-index: 10;
+	}
+}

@@ -27,6 +27,16 @@ a{
 	width: 1280px;
 	margin: 0 auto;
 	position: relative;
+	scroll-behavior: smooth;
+	
+}
+
+.first-unvisible{
+	display: none;
+}
+
+.second-unvisible{
+	display: none;
 }
 
 /*  header  */
@@ -87,7 +97,7 @@ a{
     left: 0;
     border: 4px solid #1139DA;
     border-left: none;
-    width: 92%;
+    width: 97%;
     min-width: 1410px;
     height: 83%;
     min-height: 633px;
@@ -95,7 +105,8 @@ a{
 }
 /* --- border --- */
 
-.container{
+.first{
+	height: 119vh;
 }
 .left{
 	position: relative;
@@ -215,7 +226,7 @@ a{
 	line-height: 18px;
     width: 81%;
 }
-.solial__list{
+.social__list{
 	margin-top: 158px;
 	padding-right: 29px;
 	text-align: right;
@@ -234,7 +245,7 @@ a{
 
 /*  second  */
 .second{
-	height: 640px;
+	height: 86vh;
 	overflow: hidden;
 }
 .second .bg-cross{

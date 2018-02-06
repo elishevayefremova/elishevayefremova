@@ -184,6 +184,7 @@ a{
 .bottom-pic{
 	position: absolute;
 	left: 0;
+	top: 430px;
 	width: 100%;
 	z-index: -10;
 }

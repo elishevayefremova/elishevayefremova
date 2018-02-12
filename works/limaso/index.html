@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Limaso</title>
+	<meta name="viewport" width="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+	<link rel="stylesheet" href="css/nouislider.min.css">
+	
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class="header d-flex" id="header">
+		<a href="#" class="header__logo"></a>
+		<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
+			<div class="menu">
+			  <ul>
+			    <li><a href="#">ткани для интерьера</a></li>
+			    <li><a href="#">домашний текстиль</a></li>
+			    <li><a href="#">коллекции из текстиля</a></li>
+			    <li><a href="#">ресторанный текстиль</a></li>
+			    <li><a href="#">отельный текстиль </a></li>
+			  </ul>
+		</div> 
+		<nav class="container">
+			<ul class="header__navigation d-flex">
+					<li class="header__navigation-item">
+						<a href="#">
+								ткани для интерьера
+						</a>
+					</li>
+					<li class="header__navigation-item">
+						<a href="#">
+								домашний текстиль
+						</a>
+					</li>
+					<li class="header__navigation-item">
+						<a href="#">
+								коллекции из текстиля
+						</a>
+					</li>
+					<li class="header__navigation-item">
+						<a href="#">
+								ресторанный текстиль
+						</a>
+					</li>
+					<li class="header__navigation-item">
+						<a href="#">
+								отельный текстиль 
+							</a>
+						</li>
+				</ul>	
+		</nav>
+		<div class="header__features d-flex justify-btw">
+			<a href="#" class="header__fetures_search">
+				<i class="fas fa-search"></i>
+			</a>
+			<a href="#" class="header__fetures_settings">
+				<i class="far fa-user"></i>
+			</a>
+			<a href="#" class="header__fetures_cart">
+				<i class="fas fa-shopping-cart"></i>
+			</a>
+		</div>
+	</header>
+	<div class="banner">
+		<div class="container">
+			<div class="banner__container">
+			<h1 class="banner__title">
+				изысканный дизайн <span>теплых прокрывал</span>
+			</h1>
+			<h2 class="banner__subtitle">
+				Смотрите и выбирайте, который вам по душе
+			</h2>
+			<a href="" class="banner__link">
+				смотреть
+			</a>
+		</div>
+		</div>
+	</div>
+	<div class="breadcrumbs">
+		<div class="container">
+			Главная     /     Каталог     /     Покрывала
+		</div>
+	</div>
+	<div class="content">
+		<div class="container">
+			<div class="content__block d-flex justify-btw">
+				<aside class="filter">
+					<div class="filter__category">
+						<div class="filter__title">Категория</div>
+							<div class="filter__subcategory" id="home-textiles">
+								<div class="filter__subtitle">
+									<a href="#home-textiles">Домашний текстиль</a>
+								</div>
+								<ul class="filter__list">
+									<li class="filter__item">
+										<a href="#">Гобеленовые сумки</a>
+									</li>
+									<li class="filter__item">
+										<a href="#">Скатерти</a>
+									</li>
+									<li class="filter__item">
+										<a href="#">Пледы</a>
+									</li>
+									<li class="filter__item">
+										<a href="#">Полотенца</a>
+									</li>
+								</ul>
+							</div>
+							<div class="filter__subcategory" id="interior" >
+								<div class="filter__subtitle" >
+									<a href="#interior">ткани для интерьера</a>
+								</div>
+								<ul class="filter__list">
+									<li class="filter__item">
+										<a href="#">
+											Тюль
+										</a>
+									</li>
+									<li class="filter__item">
+										<a href="#">
+											Гардины
+										</a>
+									</li>
+									<li class="filter__item">
+										<a href="#">
+											Портьеры
+										</a>
+									</li>
+									<li class="filter__item">
+										<a href="#">
+											Бархат
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="filter__subcategory" id="collections">
+								<div class="filter__subtitle">
+									<a href="#collections">коллекции из текстиля</a>
+								</div>
+								<ul class="filter__list">
+									<li class="filter__item">
+										<a href="#">
+											Коллекция
+										</a>
+									</li>
+									<li class="filter__item">
+										<a href="#">
+											Коллекция
+										</a>
+									</li>
+									<li class="filter__item">
+										<a href="#">
+											Коллекция
+										</a>
+									</li>
+									<li class="filter__item">
+										<a href="#">
+											Коллекция
+										</a>
+									</li>
+								</ul>
+							</div>
+					</div>
+					<div class="filter__price">
+						<div class="filter__title">Цена</div>
+						
+							<div class="filter__price-container">
+								<div id="slider-range"></div>
+
+								<div class="filter__price-range d-flex">
+									<input type="text" id="filter__price-min" class="filter__price-value" value="">
+									<div class="filter__price-center">	&#62;</div>
+									<input type="text" id="filter__price-max" class="filter__price-value" value="">
+								</div>
+ 
+							</div>
+					</div>
+				</aside>
+				<div class="content__goods">
+					<!-- <div id="price" onclick="price()">dcddlcd</div> -->
+					<select name="sort" class="content__sort" id="select" onchange="price()">
+						<option disabled selected="selected">Сортировать по</option>
+						<option id="sort_down" value="1">По убыванию</option>
+						<option  id="sort_up" value="2">По возрастанию</option>
+					</select>
+					<div class="content__goods-container" id="goods">
+						<div class="content__goods-item">
+							<img src="img/goods-1.png" alt="goods" class="content__goods-image">
+							<div class="content__description">
+								<div class="content__description-text">
+									<a href="#" class="content__description-title">
+										Плед "Клеточка" LT1070	
+									</a>
+									<div class="content__description-price">
+										170.00грн
+									</div>
+								</div>
+								<div class="content__cart"></div>
+							</div>
+						</div>
+						<div class="content__goods-item">
+							<img src="img/goods-2.png" alt="" class="content__goods-image">
+							<div class="content__description">
+								<div class="content__description-text">
+									<a href="#" class="content__description-title">
+										Покрывало PL03
+									</a>
+									<div class="content__description-price">
+										5846.00грн
+									</div>
+								</div>
+								<div class="content__cart"></div>
+							</div>
+						</div>
+						<div class="content__goods-item">
+							<img src="img/goods-3.png" alt="" class="content__goods-image">
+							<div class="content__description">
+								<div class="content__description-text">
+									<a href="#" class="content__description-title">
+										Покрывало гобеленовое PLG03
+									</a>
+									<div class="content__description-price">
+										170.00грн
+									</div>
+								</div>
+								<div class="content__cart"></div>
+							</div>
+						</div>
+						<div class="content__goods-item">
+							<img src="img/goods-2.png" alt="" class="content__goods-image">
+							<div class="content__description">
+								<div class="content__description-text">
+									<a href="#" class="content__description-title">
+										Покрывало PL03
+									</a>
+									<div class="content__description-price">
+										5846.00грн
+									</div>
+								</div>
+								<div class="content__cart"></div>
+							</div>
+						</div>
+						<div class="content__goods-item">
+							<img src="img/goods-3.png" alt="" class="content__goods-image">
+							<div class="content__description">
+								<div class="content__description-text">
+									<a href="#" class="content__description-title">
+										Покрывало гобеленовое PLG03
+									</a>
+									<div class="content__description-price">
+										170.00грн
+									</div>
+								</div>
+								<div class="content__cart"></div>
+							</div>
+						</div>
+						<div class="content__goods-item">
+							<img src="img/goods-1.png" alt="" class="content__goods-image">
+							<div class="content__description">
+								<div class="content__description-text">
+									<a href="#" class="content__description-title">
+										Плед "Клеточка" LT1070	
+									</a>
+									<div class="content__description-price">
+										170.00грн
+									</div>
+								</div>
+								<div class="content__cart"></div>
+							</div>
+						</div>
+						<div class="content__goods-item">
+							<img src="img/goods-2.png" alt="" class="content__goods-image">
+							<div class="content__description">
+								<div class="content__description-text">
+									<a href="#" class="content__description-title">
+										Покрывало PL03
+									</a>
+									<div class="content__description-price">
+										5846.00грн
+									</div>
+								</div>
+								<div class="content__cart"></div>
+							</div>
+						</div>
+						<div class="content__goods-item">
+							<img src="img/goods-1.png" alt="" class="content__goods-image">
+							<div class="content__description">
+								<div class="content__description-text">
+									<a href="#" class="content__description-title">
+										Плед "Клеточка" LT1070	
+									</a>
+									<div class="content__description-price">
+										170.00грн
+									</div>
+								</div>
+								<div class="content__cart"></div>
+							</div>
+						</div>
+						<div class="content__goods-item">
+							<img src="img/goods-3.png" alt="" class="content__goods-image">
+							<div class="content__description">
+								<div class="content__description-text">
+									<a href="#" class="content__description-title">
+										Покрывало гобеленовое PLG03
+									</a>
+									<div class="content__description-price">
+										170.00грн
+									</div>
+								</div>
+								<div class="content__cart"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer__content">
+			<div class="container">
+				<a href="#" class="footer__logo"></a>
+				<div class="footer__content-block d-flex">
+					<div class="footer__content-menu">
+						<h3 class="footer__menu_title">
+								контакты
+						</h3>
+						<div class="footer__contacts footer__contacts_address d-flex">
+							<img src="img/footer-address.png" class="ico"></img>
+							г. Львов, Кольцевая дорога с. Зымна Вода, ул. Яворовская, 22 ТЦ "Три Слона. Все для дома "
+						</div>
+						<div class="footer__contacts footer__contacts_tel d-flex">
+							<img src="img/phone-ico.png" class="ico"></img>
+							<div class="">
+								<p>+38(067)6742021;</p>
+								<p>+38(068)6745417</p>
+							</div>
+						</div>
+						<div class="footer__payment d-flex align-center">
+							<a href="" class="footer__payment-item footer__payment-item_visa"></a>
+							<a href="" class="footer__payment-item footer__payment-item_mastercard"></a>
+							<a href="" class="footer__payment-item footer__payment-item_paypal"></a>
+						</div>
+					</div>
+					<div class="footer__content-menu">
+						<h3 class="footer__menu_title">
+							магазин
+						</h3>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">
+								<a href="#">Акции</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">О нас</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">Доставка</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">Политика безопасности</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">Услуги</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">Возврат товара</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__content-menu">
+						<h3 class="footer__menu_title">
+							Клиентам
+						</h3>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">
+								<a href="#">Личный кабинет</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">История заказов</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">Закладки</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">Рассылка</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">Партнерская программа</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__content-menu">
+						<h3 class="footer__menu_title">
+							Дополнительно
+						</h3>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">
+								<a href="#">Производители</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">Подарочные сертификаты</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">Скидки и распродажи</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">Карта</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="#">Связаться с нами</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__copyring">
+			<div class="container d-flex justify-btw">
+				<span>LIMASO © 2017. Все права защищены.</span>
+				<ul class="social__list d-flex justify-btw">
+					<li class="social__item">
+						<a href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#">
+							<i class="fas fa-rss"></i>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#">
+							<i class="fab fa-google-plus-g"></i>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+
+	<div id="modal_form"><!-- Сaмo oкнo --> 
+	      <span id="modal_close"></span> <!-- Кнoпкa зaкрыть --> <div class="modal__title">Данные банковской карты</div>
+	      <form action="" method="POST">
+	      	<div class="modal__card-block">
+	      		<div class="modal__card modal__card_face modal__card_active">
+	      			<div>Номер карты</div>
+	      			<input type="text" placeholder="4111 1111 1111 1111" class="modal__card-number" name="number" required maxlength="16" pattern="[0-9]{16}">
+	      			<div class="">Срок действия</div>
+	      			<select name="month" id="month" required>
+	      				<option value="1">1</option>
+	      				<option value="2">2</option>
+	      				<option value="3">3</option>
+	      				<option value="4">4</option>
+	      				<option value="5">5</option>
+	      				<option value="6">6</option>
+	      				<option value="7">7</option>
+	      				<option value="8">8</option>
+	      				<option value="9">9</option>
+	      				<option value="10">10</option>
+	      				<option value="11">11</option>
+	      				<option value="12">12</option>
+	      			</select>
+	      			<select name="year" id="year" required>
+	      				<option value="2018">2018</option>
+	      				<option value="2019">2019</option>
+	      				<option value="2020">2020</option>
+	      				<option value="2021">2021</option>
+	      				<option value="2022">2022</option>
+	      				<option value="2023">2023</option>
+	      				<option value="2024">2024</option>
+	      				<option value="2025">2025</option>
+	      				<option value="2026">2026</option>
+	      			</select>
+	      			<input type="text" placeholder="Держатель карты" id="owner" name="owner" pattern="[a-zA-Z\s]+$" required>
+	      		</div>	
+	      		<div class="modal__card modal__back" titlr="Double Click to turn">
+	      			<div>Код CVV2 / CVC2</div>
+	      			<input type="text" class="modal__card-cvv" name="cvv" required maxlength="3">
+	      		</div>
+	      	</div>
+	      	<input type="submit" value="Отправить" id="submit">
+	      </form>
+	</div>
+	<div id="overlay"></div><!-- Пoдлoжкa -->
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/sort.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
+
+
+
